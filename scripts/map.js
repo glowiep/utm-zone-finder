@@ -127,7 +127,6 @@ $(document).ready(function() {
 
   // Listen for the results event and add every result to the map
   searchControl.on("results", function(data) {
-    console.log(data);
     for (let i = data.results.length - 1; i >= 0; i--) {
       description = data.results[i].properties.LongLabel;
       longitude = data.results[i].properties.DisplayX;
