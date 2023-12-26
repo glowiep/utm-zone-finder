@@ -1,0 +1,16 @@
+#map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#clearAllButton {
+  position: relative;
+  top: 50px;
+  left: 10px;
+  z-index: 2;
+  font-size: 15px;
+}
