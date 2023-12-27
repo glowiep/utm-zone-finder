@@ -6,6 +6,8 @@ A web map equipped with a tool to identify the Universal Transverse Mercator (UT
 - Pan/ Zoom in and out of the map to any area and click on the polygon to get the UTM Zone information.
 - Click on Reset Map to clear features displayed on the map.
 
+![UTM Zone Finder](docs/UTMZoneFinder.png)
+
 ## 🔧 Dependencies
 - jQuery
 - Leaflet
