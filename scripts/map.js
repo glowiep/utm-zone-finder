@@ -10,7 +10,7 @@ $(document).ready(function() {
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 29,
     minZoom: 2,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>. Inspired by <a href="https://github.com/Ross-McCandless/UTMZoneFinder" target="_blank">Ross-McCandless</a>.',
     crossOrigin: true
   }).addTo(map);
 
@@ -30,7 +30,7 @@ $(document).ready(function() {
     zoomToResult: false,
     position: 'topleft',
     collapseAfterResult: true,
-    placeholder: 'Search Address or Place'
+    placeholder: 'Search Address to Get UTM Zone'
   }).addTo(map);
 
 
