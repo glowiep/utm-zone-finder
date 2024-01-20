@@ -14,3 +14,6 @@ A web map equipped with a tool to identify the Universal Transverse Mercator (UT
 - <a href="https://github.com/Esri/esri-leaflet-geocoder">esri-leaflet-geocoder</a>
 - Bootstrap
 - <a href="https://www.npmjs.com/package/@turf/turf">turf JS </a>
+
+## 💡 Sources
+- ArcGIS REST Services Directory: <a href="https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/World_UTM_Grid/FeatureServer">UTMZones.geojson feature layer</a>
